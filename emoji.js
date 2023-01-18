@@ -1,13 +1,21 @@
 background(255, 255, 255);
 
 push();
-translate(150, 100);
+translate(100, 70);
 
 // yellow body
+strokeWeight(2);
 fill(255, 255, 0);
 ellipse(150, 150, 200);
 
 // eyebrows
+noStroke();
+fill(0, 0, 0);
+ellipse(100, 90, 20);
+ellipse(200, 90, 20);
+fill(255, 255, 0);
+ellipse(98, 85, 24);
+ellipse(202, 85, 24);
 
 // eyes and mouth
 fill(0, 0, 0);

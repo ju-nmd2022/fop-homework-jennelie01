@@ -1,3 +1,5 @@
+// in this file I'm trying out code from lectures
+
 background(255, 255, 255);
 
 ellipse(120, 180, 30, 70);

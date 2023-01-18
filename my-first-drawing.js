@@ -20,3 +20,18 @@ vertex(105, 140);
 bezierVertex(105, 100, 135, 100, 135, 140);
 bezierVertex(135, 120, 105, 120, 105, 140);
 endShape();
+
+// translate
+push();
+translate(150, 200);
+rect(0, 0, 100, 100);
+pop();
+
+//rotate, rotate on its own origin point in center
+// scale
+push();
+scale(1.5);
+translate(300, 300);
+rotate(0.5);
+rect(-50, -50, 100, 100);
+pop();
